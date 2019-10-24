@@ -4,7 +4,7 @@ feign:
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    url : jdbc:mysql://localhost:3306/springcloud-clains?characterEncoding=utf8&useSSL=false
+    url : jdbc:mysql://localhost:3306/springcloud-clains?characterEncoding=utf8
     driverClassName: com.mysql.jdbc.Driver
     initialSize: 5
     minIdle: 5
